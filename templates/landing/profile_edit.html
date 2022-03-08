@@ -1,0 +1,19 @@
+{% extends "account/base.html" %}
+{% load bootstrap4 %}
+
+{% load i18n %}
+
+{% block maincontent %}
+<div class="container" style="width:50%; margin-left:25%; text-align:center; margin-top:50px; margin-bottom:50px; font-size:30px;">
+
+<h1>Edit Profile</h1>
+
+  <form enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    {% bootstrap_form form %}
+    <button type="submit" class="slide">Submit</button>
+ </form>
+
+</div>
+
+{% endblock %}

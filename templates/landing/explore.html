@@ -1,0 +1,41 @@
+{% extends "landing/snippets/base.html" %}
+{% load static %}
+
+{% block title %}
+Explore
+{% endblock title %}
+
+{% block maincontent %}
+<div class="container">
+    <div class="left" style=" border: 0;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.1);
+    border: 1px solid rgba(255,255,255,0.1);
+    backdrop-filter: blur(20px);
+    padding: 2rem;">
+        <div class="main-title main-title-explore">
+            <h1>Learning Outcomes 🎯</h1>
+        </div>
+            <br>
+            <ul><h3>Internal Trade🛍</h3>
+                <li><i class="bi bi-arrow-right-circle"></i> Describe the meaning and types of internal trade.</li> 
+                <li><i class="bi bi-arrow-right-circle"></i> Specify the services of wholesalers to manufactures & retailers.</li> 
+                <li><i class="bi bi-arrow-right-circle"></i> Explain the services of retailers to wholesalers/manufacturers and consumers.</li> 
+                <li><i class="bi bi-arrow-right-circle"></i> Explain the form of large scale retailers</li> 
+            </ul>
+            <br>
+            <ul><h3>International Business✈️</h3>
+                <li><i class="bi bi-arrow-right-circle"></i> Discuss the meaning and scope of International Business</li>
+                <li><i class="bi bi-arrow-right-circle"></i> Distinguish between Internal and International Business</li>
+                <li><i class="bi bi-arrow-right-circle"></i> Enumerate the benefits of International Business</li>
+                <li><i class="bi bi-arrow-right-circle"></i> Discuss the procedure and documents required for import and export transaction</li>
+            </ul>
+        
+    </div>
+    <div class="right">
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+        <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_TBKozE.json" mode="bounce" background="transparent"  speed="1"  style="width: 600px; height: 600px;"  loop  autoplay></lottie-player>
+    </div>
+</div>
+{% endblock maincontent %}

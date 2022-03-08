@@ -1,0 +1,26 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% include "learning/snippets/head.html" %}
+
+    <title>{% block title %}Insight{% endblock title %}</title>
+</head>
+<body>
+
+<div class="main-container">
+    
+    {% include 'learning/snippets/nav.html' %}
+
+    <div class="content-area">
+        {% block maincontent %}
+          
+        {% endblock maincontent %}
+    </div>
+
+</div>
+
+<script src="{% static 'learning/template.js' %}"></script>
+    
+</body>
+</html>

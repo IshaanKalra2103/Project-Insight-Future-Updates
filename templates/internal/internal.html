@@ -1,0 +1,188 @@
+{% extends "learning/snippets/base.html" %}
+{% load static %}
+
+{% block title %}
+Internal Trade
+{% endblock title %}
+
+{% block maincontent %}
+
+<div class="top-btn-wrapper">
+    <button type="button" class="learn-btn-new">
+        <div><a  href="{% url 'learning' %}">Back to Learning</a></div>
+      </button>
+</div>
+
+<div class="intro-box">
+    <div class="image"><img class="image-desc" src="https://leverageedu.com/blog/wp-content/uploads/2020/09/Internal-Trade.jpg" alt="..."> </div>
+    <div class="description">
+        <h1 class="title-css">Internal Trade </h1>
+        <p>This is the buying and selling of goods and services within the confined boundaries of the nation.
+            The products being purchased from the neighbouring local shop or from a central market or from departmental shops or from malls or even from door-to-door selling all come under internal trade. 
+            <br>
+            <br>For learning enrichment, click on the following link:</p>
+            <button type="button" class="learn-btn-new">
+                <div><a target="_blank" href="{% url 'internal_trade_video' %}">Intro to Internal Trade</a></div>
+                
+              </button>
+    </div>
+</div>
+
+<div class="accordian-holder">
+    <div class="items">
+        <div class="show-bar-alt">
+            <div class="bar-image"><img src="https://images.unsplash.com/photo-1475275083424-b4ff81625b60?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80" alt=""></div>
+            <div class="bar-desc">
+                <h1 class="title-css">Wholesale Trade</h1>
+                <p>Wholesale trade consists of purchasing and selling goods, generally to retailers, professional users or authorities, or to other wholesalers or intermediaries, in large quantities. Wholesale trade intermediaries put buyers and vendors into contact without being owners of the goods.</p>
+                <button type="button" class="slide accBtn">
+                    <div class="">View</div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+        <div class="accordian-content ">
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Services for Wholesalers</h1>
+                <p>Wholesalers provide various services to manufacturers and retailers. They provide immense help in the distribution of goods and services.
+                    Play this short video to get a comprehensive overview of wholesale trade.</p>
+                    <button type="button" class="slide accBtn">
+                        <div><a target="_blank" href="{% url 'wholesale_video' %}">Play Video</a></div>
+                        <i class="bi bi-arrow-right"></i>
+                      </button>
+            </div>
+
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Wholesale Trade Game</h1>
+                <p>Click on the play button below to play a quiz game on Wholesale Trade</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="{% url 'quiz_of_index' %}">Play Game</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="items">
+        <div class="show-bar">
+            <div class="bar-image"><img src="https://images.unsplash.com/photo-1522684462852-01b24e76b77d?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></div>
+            <div class="bar-desc">
+                <h1 class="title-css">Retail Trade</h1>
+                <p>Retail Trade involves selling of goods and services to the ultimate consumers. A retailer purchases goods in large quantities from manufacturers, directly or through a wholesaler, and then sells in smaller quantities to consumers.</p>
+                <button type="button" class="slide  accBtn">
+                    <div>View</div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+        <div class="accordian-content ">
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Services for Retailers</h1>
+                <p>Retailers serve as an important link between the producers and ultimate consumers in the distrbution of goods and services.
+                    Play this short video to get a comprehensive overview of retail trade.</p>
+                    <button type="button" class="slide accBtn">
+                        <div><a target="_blank" href="{% url 'retail_video' %}">Play Video</a></div>
+                        <i class="bi bi-arrow-right"></i>
+                      </button>
+            </div>
+
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Retail Trade Game</h1>
+                <p>A small trader refers to a market participant whose buying and selling activity is small enough for them to be exempt from certain regulatory requirements. It is often used to refer to traders or small financial firms, whose trading volumes are relatively low. Play this game to find out more!</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="https://krm-obstacle-game.netlify.app/">Play game</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Retail Trade Quiz</h1>
+                <p>Click on the play button below to play a quiz game on Retail Trade</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="{% url 'quiz_in_index' %}">Play game</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="items">
+        <div class="show-bar-alt">
+            <div class="bar-image"><img src="https://images.unsplash.com/photo-1472851294608-062f824d29cc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" alt=""></div>
+            <div class="bar-desc">
+                <h1 class="title-css">Fixed Store Trade</h1>
+                <p>
+                    The name itself explains that they do not move from one place to another. They can establish a medium or a large scale business in a fixed place. They do not move from place to place to serve their customers.</p>
+                <button type="button" class="slide  accBtn">
+                    <div>View</div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+        <div class="accordian-content ">
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Departmental Store</h1>
+                <p>A department store is a retail establishment offering a wide range of consumer goods in different areas of the store, each area specializing in a product category.</p>
+                    <button type="button" class="slide accBtn">
+                        <div><a target="_blank" href="{% url 'department_store_video' %}">Play Video</a></div>
+                        <i class="bi bi-arrow-right"></i>
+                      </button>
+            </div>
+
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Retail Trade Game</h1>
+                <p>A small trader refers to a market participant whose buying and selling activity is small enough for them to be exempt from certain regulatory requirements. It is often used to refer to traders or small financial firms, whose trading volumes are relatively low. Play this game to find out more!</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="https://krm-obstacle-game.netlify.app/">Play game</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Retail Trade Quiz</h1>
+                <p>Click on the play button below to play a quiz game on Retail Trade</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="{% url 'quiz_in_index' %}">Play game</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Departmental Store Visit</h1>
+                <p>Visit to a Departmental Store IRL</p>
+                <button type="button" class="slide">
+                    <div><a target="_blank" href="{% url 'department_store_visit' %}">Play Video</a></div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="items">
+        <div class="show-bar">
+            <div class="bar-image"><img src="https://images.unsplash.com/photo-1498736297812-3a08021f206f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=879&q=80" alt=""></div>
+            <div class="bar-desc">
+                <h1 class="title-css">Internal trade Game</h1>
+                <p>A game is an activity that is designed for a purpose. The purpose of these games is to educate you about the complex and intricate topics of internal trade in a fun and intuitive way.</p>
+                <button type="button" class="slide  accBtn">
+                    <div>View</div>
+                    <i class="bi bi-arrow-right"></i>
+                  </button>
+            </div>
+        </div>
+        <div class="accordian-content ">
+            <div class="content-box-for-acc-content">
+                <h1 class="title-css">Kaun Banega Trade Expert 💸</h1>
+                <p>A quiz that is solely created to cater you about the concepts of Wholesale store, Chain stores etc. Each point you get, higher the position you achieve on the leaderboard.</p>
+                    <button type="button" class="slide accBtn">
+                        <div><a target="_blank" href="{% url 'quiz_index' %}">Play Game</a></div>
+                        <i class="bi bi-arrow-right"></i>
+                      </button>
+            </div>
+        </div>
+    </div>
+
+
+</div>
+
+{% endblock maincontent %}

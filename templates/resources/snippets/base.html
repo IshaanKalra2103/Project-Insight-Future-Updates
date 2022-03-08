@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+{% include 'resources/snippets/head.html' %}
+
+<style>
+    body, .navbar{
+        background-image: url(https://source.unsplash.com/nbuYloot8_U/1600x900);
+        background-repeat:repeat;
+    }
+
+</style>
+
+<body>
+    {% include "learning/snippets/base.html" %}
+
+    {% block maincontent %}{% endblock maincontent %}
+    
+    {% include 'resources/snippets/footer.html' %}
+</body>
+</html>

@@ -1,0 +1,30 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;300;400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'quiz_game/style.css' %}">
+    <title>High Scores</title>
+</head>
+<body>
+    <div class="container">
+        <div id="highscores" class="flex-center flex-column">
+            <h1 id="finalScore" style="background: linear-gradient(90deg, #FFEEAD , #FFF89A); border-radius: 10px; padding: 1rem; margin: 0 auto;">Leaderboard</h1>
+
+            <ul id="highScoresList" style="background-color: #519259 ; border-radius: 10px;">
+            </ul>
+            <center style="margin: 20rem;width: 30rem;">
+                <a href="{% url 'quiz_index' %}" style="margin: 0 auto; padding: 2rem;"  class="btn">Back to Home</a>
+            </center>
+            
+
+        </div>
+    </div>
+    <script src="{% static 'quiz_game/highscores.js' %}"></script>
+</body>
+</html>

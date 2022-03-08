@@ -1,0 +1,107 @@
+{% extends "learning/snippets/base.html" %}
+{% load static %}
+
+{% block title %}
+External Trade
+{% endblock title %}
+
+{% block maincontent %}
+
+<div class="top-btn-wrapper">
+    <button type="button" class="learn-btn-new">
+        <div><a class="bn40"  href="{% url 'learning' %}">Back to Learning</a></div>
+
+      </button>
+</div>
+
+<div class="intro-box">
+    <div class="image"><img class="image-desc" src="https://leverageedu.com/blog/wp-content/uploads/2020/09/Internal-Trade.jpg" alt="..."> </div>
+    <div class="description">
+        <h1 class="title-css">International Business📈 </h1>
+        <p>International Business is the exchange of capital, goods, and services across international borders or territories as there is a need or want of goods or services due to unequal distribution of natural resources among the countries or differences in their productivity level. </p>
+    </div>
+</div>
+
+<div class="external-intro">
+    <h1 class="title-css">Make-A-Trade ✈️</h1>
+    <p class="sub-title-external">An 8 episode Journey</p>
+</div>
+
+<div class="epi-holder">
+    
+    <div class="episodes">
+       <div class="emoji-wrapper epi-center-wrapper">1️⃣</div> 
+       <div class="epi-intro epi-center-wrapper">
+        <h1 class="title-css">Episode 1</h1>
+        <span>This video covers the meaning of international business and various reasons for international business</span>
+        <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep1_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+       </div>
+    </div>
+
+    <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">2️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 2</h1>
+         <span>This video covers the differences between domestic and international business and various forms of business operations that constitute international business</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep2_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">3️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 3</h1>
+         <span>This video covers the benefits of international business to countries and to firms</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep3_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">4️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 4</h1>
+         <span>This video covers the procedure and documentation which are involved in import procedure from step one i.e. trade enquiry till step five i.e. obtaining letter of credit</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep4_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">5️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 5</h1>
+         <span>This video covers the step of import procedure from step six i.e. arrange for finance tell Steph 10 custom clearance and release of goods</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep5_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">6️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 6</h1>
+         <span>This video covers the procedure and documentation which are involved in export drocedure from step one that is receipt of enquiry and sending quotations till step seven i.e. pre-shipment inspection.</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep6_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">7️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 7</h1>
+         <span>This video covers the procedure and documentation which are involved in export procedure from step eight that is Excise clearance till obtaining Bills of exchange.</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep7_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     <div class="episodes">
+        <div class="emoji-wrapper epi-center-wrapper">8️⃣</div> 
+        <div class="epi-intro epi-center-wrapper">
+         <h1 class="title-css">Episode 8</h1>
+         <span>This Final video covers the procedure and documentation which are involved in export procedure after obtaining Bills of exchange.</span>
+         <div class="epi-center-wrapper"><button type="button" class="slide epi-center-wrapper"><div><a target="_blank" href="{% url 'ep8_video' %}">Play</a></div><i class="bi bi-arrow-right"></i></button></div>
+        </div>
+     </div>
+
+     
+</div>
+
+{% endblock maincontent %}
